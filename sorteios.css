@@ -99,6 +99,38 @@ body {
     font-size: 12px;
     font-family: 'DM Serif Display', serif;
   }
+
+/* Adicionando media query para dispositivos móveis */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Reduzindo o tamanho da fonte para dispositivos móveis */
+  }
+
+  .container {
+    flex-direction: column; /* Mudando a direção do layout para empilhado em dispositivos móveis */
+  }
+
+  .nextPageBtn > button {
+    padding: 12px 25px; /* Ajustando o padding do botão para dispositivos móveis */
+    font-size: 16px; /* Ajustando o tamanho da fonte do botão para dispositivos móveis */
+  }
+
+  .sobre-feira-um,
+  .sobre-sorteio {
+    font-size: 16px; /* Ajustando o tamanho da fonte para dispositivos móveis */
+  }
+
+  .welcome-text {
+    font-size: 24px; /* Ajustando o tamanho da fonte para dispositivos móveis */
+  }
+
+  .sobre-sorteio ul {
+    padding-left: 15px; /* Ajustando o recuo para a lista */
+  }
+
+  /* Adicione outros estilos para divs conforme necessário */
+}
+
   
 @keyframes moveGradient {
     0% {
